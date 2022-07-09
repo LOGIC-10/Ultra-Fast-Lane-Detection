@@ -1,6 +1,6 @@
 # DATA
 dataset='CULane'
-data_root = None
+data_root = '~/tmp'
 
 # TRAIN
 epoch = 50
@@ -35,8 +35,8 @@ finetune = None
 resume = None
 
 # TEST
-test_model = None
-test_work_dir = None
+test_model = 'culane_18.pth'
+test_work_dir = './tmp'
 
 num_lanes = 4
 
